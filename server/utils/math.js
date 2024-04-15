@@ -23,7 +23,7 @@ const subtract = (num1, num2) => {
   return num;
 };
 
-const multiply = (num1, num2) => clamp(num1) * clamp(num2);
+const multiply = (num1, num2) => clamp(num1) * num2;
 
 module.exports.add = add;
 module.exports.sub = subtract;
